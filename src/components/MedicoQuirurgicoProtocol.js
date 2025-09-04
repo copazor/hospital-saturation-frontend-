@@ -9,7 +9,7 @@ import timezone from 'dayjs/plugin/timezone';
 dayjs.extend(utc);
 dayjs.extend(timezone);
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://hospital-saturation-backend.onrender.com';
 
 const alertColors = {
   "Verde": { background: '#e8f5e9', text: '#2e7d32' },

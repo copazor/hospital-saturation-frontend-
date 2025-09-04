@@ -31,7 +31,7 @@ import dayjs from 'dayjs';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://hospital-saturation-backend.onrender.com';
 
 const inputDataLabels = {
   scenario: "Escenario",
